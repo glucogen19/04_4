@@ -4,5 +4,6 @@
 #include <vector>
 #include <algorithm>
 
+class TBook {};
 
 int main(){}
