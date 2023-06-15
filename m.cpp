@@ -23,4 +23,6 @@ bool compareByAuthor(const TBook& book1, const TBook& book2) {
     return book1.getAuthor() < book2.getAuthor();
 }
 
-int main(){}
+int main(){
+    std::vector<TBook> books;
+}
