@@ -25,4 +25,10 @@ bool compareByAuthor(const TBook& book1, const TBook& book2) {
 
 int main(){
     std::vector<TBook> books;
+	 std::ifstream inputFile("books.txt");
+
+    if (!inputFile.is_open()) {
+        std::cout << "Failed to open the file." << std::endl;
+        return 1;
+    }
 }
