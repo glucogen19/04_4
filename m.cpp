@@ -51,4 +51,6 @@ int main(){
     }
 
     inputFile.close();
+	std::sort(books.begin(), books.end(), compareByAuthor);
+	
 }
