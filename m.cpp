@@ -51,6 +51,10 @@ int main(){
     }
 
     inputFile.close();
-	std::sort(books.begin(), books.end(), compareByAuthor);
 	
+	for (const auto& book : books) {
+        std::cout << "Book: " << book.getName() << ", Author: " << book.getAuthor() << ", Count: " << book.getCount() << std::endl;
+    }
+
+    return 0;
 }
