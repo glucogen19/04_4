@@ -19,4 +19,8 @@ class TBook {
     void setCount(int count) { Count = count; }
 };
 
+bool compareByAuthor(const TBook& book1, const TBook& book2) {
+    return book1.getAuthor() < book2.getAuthor();
+}
+
 int main(){}
