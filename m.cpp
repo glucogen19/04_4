@@ -4,6 +4,11 @@
 #include <vector>
 #include <algorithm>
 
-class TBook {};
+class TBook {
+	private:
+    std::string Name;
+    std::string Author;
+    int Count;
+};
 
 int main(){}
